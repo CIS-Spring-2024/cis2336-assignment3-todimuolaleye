@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafeteria Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Sugarland Snacks</h1>
+  </header>
+  
+  <div class="menu">
+    <h2>Menu</h2>
+    <form id="orderForm">
+      <div class="menuItem">
+        <span class="itemName">Burger</span>
+        <input type="number" name="burgerQuantity" id="burgerQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Pizza</span>
+        <input type="number" name="pizzaQuantity" id="pizzaQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Pancakes</span>
+        <input type="number" name="pancakesQuantity" id="pancakesQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Omelette</span>
+        <input type="number" name="omeletteQuantity" id="omeletteQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">French-toast</span>
+        <input type="number" name="frenchToastQuantity" id="frenchToastQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Steak</span>
+        <input type="number" name="steakQuantity" id="steakQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Pasta</span>
+        <input type="number" name="pastaQuantity" id="pastaQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Salad</span>
+        <input type="number" name="saladQuantity" id="saladQuantity" min="0" max="10" value="0">
+      </div>
+      <div class="menuItem">
+        <span class="itemName">Sandwich</span>
+        <input type="number" name="sandwichQuantity" id="sandwichQuantity" min="0" max="10" value="0">
+      </div>
+
+      <input type="submit" value="Place Order">
+    </form>
+    <div id="errorMessage" class="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
